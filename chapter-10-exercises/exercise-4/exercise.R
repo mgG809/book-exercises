@@ -4,19 +4,19 @@
 # file into a variable called `grants` using the `read.csv()`
 # Be sure to set your working directory in RStudio, and do NOT treat strings as 
 # factors!
-
+grants <- read.csv("data/gates_money.csv", stringsAsFactors = FALSE)
 
 # Use the View function to look at the loaded data
 
-
+View(grants)
 # Create a variable `organization` that contains the `organization` column of 
 # the dataset
-
+organization <- grants$organization
 
 # Confirm that the "organization" column is a vector using the `is.vector()` 
 # function. 
 # This is a useful debugging tip if you hit errors later!
-
+is.vector(organization)
 
 ## Now you can ask some interesting questions about the dataset
 
