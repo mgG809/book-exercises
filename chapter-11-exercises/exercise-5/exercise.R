@@ -7,7 +7,7 @@ install.packages("nycflights13")
 library("nycflights13")
 library("dplyr")
 
-View(flights)
+#View(flights)
 # What was the average departure delay in each month?
 # Save this as a data frame `dep_delay_by_month`
 # Hint: you'll have to perform a grouping operation then summarizing your data

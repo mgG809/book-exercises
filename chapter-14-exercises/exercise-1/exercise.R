@@ -1,18 +1,28 @@
+# I am very confused about this topic and I am still trying to figure it out, sorry I coudn't do this one
+# but I will do my best to understand by next weekend
+
+
+
+
 # Exercise 1: reading and querying a web API
 
 # Load the httr and jsonlite libraries for accessing data
 # You can also load `dplyr` if you wish to use it
-
+#install.packages("httr")
+#install.packages("jsonlite")
+library("jsonlite")
+library("httr")
+library("dplyr")
 
 # Create a variable base_uri that stores the base URI (as a string) for the 
 # Github API (https://api.github.com)
-
+base_uri <- "https://api.github.com"
 
 # Under the "Repositories" category of the API documentation, find the endpoint 
 # that will list _repos in an organization_. Then create a variable named
 # `org_resource` that stores the endpoint for the `programming-for-data-science`
 # organization repos (this is the _path_ to the resource of interest).
-
+org_resource <- 
 
 # Send a GET request to this endpoint (the `base_uri` followed by the 
 # `org_resource` path). Print the response to show that your request worked. 
